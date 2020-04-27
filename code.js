@@ -9,9 +9,15 @@ const sayHello = function(input) {
             return "Hello, Alex!";
         } else if (input === "Pat") {
              return "Hello, Pat!";
-        }else if (input === false) {
-             return "Hello, World!"
+        // }else if (input === false) {
+        //      return "Hello, World!"
         } else {
             return "Hello, Jane!";
             }
-        };
+};
+//isFive function
+const isFive = function(input) {
+    return "";
+    if(input === '5');
+    return true;
+};
