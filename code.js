@@ -18,6 +18,18 @@ const sayHello = function(input) {
 //isFive function
 const isFive = function(input) {
     return "";
-    if(input === '5');
+    if (input === "5") {
+        return "5";
+    }
+//isEven function
+const isEven1 = function(num) {
+        if (input === num%2) {
+            return "true";
+        }
+    };
+};
+//isVowel
+const isVowel = function(input) {
+    if(input === 'a');
     return true;
 };

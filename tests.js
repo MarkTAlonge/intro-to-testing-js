@@ -41,3 +41,21 @@ describe('isFive', function() {
         expect(isFive()).toBe("");
     });
 });
+//isEven function
+describe('isEven', function() {
+    it('should be a defined function', function() {
+        expect(typeof isEven()).toBe("function");
+    });
+    it('should return "boolean" no mater the input', function() {
+        expect(typeof isEven()).toBe("true");
+    });
+});
+//isVowel
+describe('isVowel', function() {
+    it('should be a defined function', function() {
+        expect(typeof isVowel()).toBe('function');
+    });
+    it('should return true is a bolean is executed', function() {
+        expect(typeof isVowel()).toBe('true');
+    });
+});
