@@ -13,24 +13,26 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
-
+// sayHello function
 describe('sayHello', function() {
-    it('should be a defined function', function() {
+    it('should be a defined function', function()  {
         expect(typeof sayHello).toBe('function');
     });
     it('should return a string when called', function() {
-        expect(typeof sayHello()).toBe('string');
-    });
-    it('should say "sayHello("Jane")" and return "Hello, Jane!"', function() {
-        expect(sayHello()).toBe("Hello, Jane!");
-    });
-    it('should say "sayHello("Alex") and return "Hello, Alex"', function() {
+        expect(typeof sayHello()).toBe("string");
+        });
+    it('should return the string "Hello, Jane!" when executed', function() {
+        expect(sayHello("Jane")).toBe("Hello, Jane!");
+        });
+    it('should return the string "Hello, Alex!" when executed', function (){
         expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
-    it('should say "sayHello("Pat") and return "Hello, Pat"', function() {
+    it('should return the string "Hello, Pat!" when executed', function() {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
 });
+
+
 
 
 
