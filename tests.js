@@ -59,3 +59,10 @@ describe('isVowel', function() {
         expect(typeof isVowel()).toBe('true');
     });
 });
+// add function
+describe('add', function (num1, num2) {
+    it('should add 2 numbers wheather a string or number', function() {
+        expect(typeof add()).toBe('math');
+    });
+
+});
